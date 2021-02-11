@@ -1,0 +1,40 @@
+.container{ 
+    max-width: 1170px;
+    margin: auto;
+}
+header{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.top_nav{
+   padding: 0 20px;
+}
+.top_menu{
+    display: flex;
+}    
+
+.top_menu li {
+   margin-right: 10px;
+}
+
+.top_menu li a {
+    color:slategray;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.top_menu li a:hover{
+    color: tomato;
+    transition: ease-in 0.3s;
+}
+
+.logo {
+    width: 96px;
+    
+}
+
+
